@@ -12,8 +12,9 @@ let htmlElements = "";
 
 for (let i = 0; i < 256; i++) {
     htmlElements += "<div class = 'grid'></div>";
-    console.log(htmlElements);
+    
     
 }
 
 container.innerHTML = htmlElements;
+// console.log(htmlElements);
