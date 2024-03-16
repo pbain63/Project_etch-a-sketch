@@ -17,8 +17,8 @@ container.innerHTML = htmlElements;
 const mouseMoves = document.querySelectorAll(".grid");
 
 mouseMoves.forEach((mouseMove) => {
-//   mouseMove.addEventListener("mouseenter", () => {
-//     //("mouseenter", sketch)
+  mouseMove.addEventListener("mouseenter", () => {
+    //("mouseenter", sketch)
 //     mouseMove.style.backgroundColor = "orange";
 //   });
 // });
