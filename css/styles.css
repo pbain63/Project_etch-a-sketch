@@ -1,6 +1,10 @@
 body {
     margin: 0;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-flow: row wrap; */
 }
 #container {
     width: 500px;
@@ -10,12 +14,13 @@ body {
     display: flex;
     align-content:flex-start;
     flex-flow: row wrap;
-    gap: 1px;
+    
+    /* gap: 1px; */
     
 }
 .grid {
     width: 10px;
     height: 10px;
     background-color: blue;
-    margin: 0;
+    
 }
