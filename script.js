@@ -19,9 +19,9 @@ const mouseMoves = document.querySelectorAll(".grid");
 mouseMoves.forEach((mouseMove) => {
   mouseMove.addEventListener("mouseenter", () => {
     //("mouseenter", sketch)
-//     mouseMove.style.backgroundColor = "orange";
-//   });
-// });
+    mouseMove.style.backgroundColor = "orange";
+  });
+});
 
 // function sketch(e) {
 //   // e.target.style.backgroundColor = "orange";  //
