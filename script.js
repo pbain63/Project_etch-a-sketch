@@ -20,9 +20,9 @@ function changeGrid(e) {
   }
 
   container.innerHTML = htmlElements;
-//   // console.log(container.innerHTML);
-//   //
-//   const mouseMoves = document.querySelectorAll(".grid");
+  // console.log(container.innerHTML);
+  //
+  const mouseMoves = document.querySelectorAll(".grid");
 
 //   mouseMoves.forEach((mouseMove) => {
 //     mouseMove.addEventListener("mouseenter", () => {
