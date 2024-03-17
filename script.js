@@ -8,9 +8,9 @@ document.body.appendChild(container);
 
 gridChangeBtn.addEventListener("click", changeGrid);
 
-// function changeGrid(e) {
-//   let userInputHeight = Number(prompt("Enter a preferred height for grid: "));
-//   let userInputWidth = Number(prompt("Enter a preferred width for grid: "));
+function changeGrid(e) {
+  let userInputHeight = Number(prompt("Enter a preferred height for grid: "));
+  let userInputWidth = Number(prompt("Enter a preferred width for grid: "));
 //   let gridShape = userInputHeight * userInputWidth;
 
 //   let htmlElements = "";
