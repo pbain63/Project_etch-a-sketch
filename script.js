@@ -13,13 +13,13 @@ function changeGrid(e) {
   let userInputWidth = Number(prompt("Enter a preferred width for grid: "));
   let gridShape = userInputHeight * userInputWidth;
 
-//   let htmlElements = "";
+  let htmlElements = "";
 
-//   for (let i = 0; i < gridShape; i++) {
-//     htmlElements += '<div class = "grid"></div>';
-//   }
+  for (let i = 0; i < gridShape; i++) {
+    htmlElements += '<div class = "grid"></div>';
+  }
 
-//   container.innerHTML = htmlElements;
+  container.innerHTML = htmlElements;
 //   // console.log(container.innerHTML);
 //   //
 //   const mouseMoves = document.querySelectorAll(".grid");
