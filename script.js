@@ -6,7 +6,7 @@ container.setAttribute("id", "container");
 
 document.body.appendChild(container);
 
-// gridChangeBtn.addEventListener("click", changeGrid);
+gridChangeBtn.addEventListener("click", changeGrid);
 
 // function changeGrid(e) {
 //   let userInputHeight = Number(prompt("Enter a preferred height for grid: "));
