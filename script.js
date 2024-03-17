@@ -20,8 +20,7 @@ function changeGrid(e) {
   }
 
   container.innerHTML = htmlElements;
-  // console.log(container.innerHTML);
-  //
+
   const mouseMoves = document.querySelectorAll(".grid");
 
   mouseMoves.forEach((mouseMove) => {
@@ -30,12 +29,9 @@ function changeGrid(e) {
       mouseMove.style.backgroundColor = "orange";
     });
   });
-//   // function sketch(e) {
-//   //   // e.target.style.backgroundColor = "orange";  //
-//   // }
+  //   // function sketch(e) {
+  //   //   // e.target.style.backgroundColor = "orange";  //
+  //   // }
+}
 
-  
-// }
-
-
-// // -
+// //
