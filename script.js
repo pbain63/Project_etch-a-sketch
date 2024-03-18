@@ -1,37 +1,65 @@
 let gridChangeBtn = document.querySelector("#gridChangeBtn");
 
+const mainContainer = document.createElement("div");
 const container = document.createElement("div");
 
-container.setAttribute("id", "container");
+// container.setAttribute("id", "container");
+// mainContainer.setAttribute("id", "mainContainer");
 
-document.body.appendChild(container);
+// let containerWidth = (container.style.width = "500px");
+// let containerHeight = (container.style.height = "500px");
 
-gridChangeBtn.addEventListener("click", changeGrid);
+// document.body.appendChild(mainContainer);
 
-function changeGrid(e) {
-  let userInputHeight = Number(prompt("Enter a preferred height for grid: "));
-  let userInputWidth = Number(prompt("Enter a preferred width for grid: "));
-  let gridShape = userInputHeight * userInputWidth;
+// mainContainer.appendChild(container);
 
-  let htmlElements = "";
+// for (let i = 0; i < 256; i++) {
+//   const grid = document.createElement("div");
+//   grid.classList.add("grid");
+//   grid.setAttribute("style", "width: 30px; height: 30px"); //fill whole container
+//   container.appendChild(grid);
+// }
 
-  for (let i = 0; i < gridShape; i++) {
-    htmlElements += '<div class = "grid"></div>';
-  }
+// gridChangeBtn.addEventListener("click", changeGrid);
 
-  container.innerHTML = htmlElements;
+// function changeGrid(e) {
+//   let userGridSize = Number(prompt("Enter a preferred size for grid up to 100: "));
+//   if (userGridSize > 100) {
+//     alert("Please enter grid size between 100!");
+//   } else {
+//     let gridShape = userGridSize * userGridSize;
 
-  const mouseMoves = document.querySelectorAll(".grid");
+//     let containerSize = Number(500);
+//     let gridWidth = 500 / userGridSize; /////////
+//     let gridHeight = 500 / userGridSize;
 
-  mouseMoves.forEach((mouseMove) => {
-    mouseMove.addEventListener("mouseenter", () => {
-      //("mouseenter", sketch)
-      mouseMove.style.backgroundColor = "orange";
-    });
-  });
-  //   // function sketch(e) {
-  //   //   // e.target.style.backgroundColor = "orange";  //
-  //   // }
-}
+//     // console.log(gridWidth);
 
-// //
+//     while (container.firstChild) {
+//       container.removeChild(container.firstChild); //
+//     }
+
+//     for (let i = 0; i < gridShape; i++) {
+//       const grid = document.createElement("div");
+//       grid.classList.add("gridBox");
+
+//       grid.style.width = gridWidth + "px"; /////////////
+//       grid.style.height = gridHeight + "px";
+//       console.log(grid.style.height);
+
+//       container.appendChild(grid);
+//     }
+
+//     const mouseMoves = document.querySelectorAll(".gridBox");
+
+//     mouseMoves.forEach((mouseMove) => {
+//       mouseMove.addEventListener("mouseenter", () => {
+//         //("mouseenter", sketch)
+//         mouseMove.style.backgroundColor = "orange";
+//       });
+//     });
+//     //   // function sketch(e) {
+//     //   //   // e.target.style.backgroundColor = "orange";  //
+//     //   // }
+//   }
+// }
