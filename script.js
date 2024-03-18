@@ -3,8 +3,8 @@ let gridChangeBtn = document.querySelector("#gridChangeBtn");
 const mainContainer = document.createElement("div");
 const container = document.createElement("div");
 
-// container.setAttribute("id", "container");
-// mainContainer.setAttribute("id", "mainContainer");
+container.setAttribute("id", "container");
+mainContainer.setAttribute("id", "mainContainer");
 
 // let containerWidth = (container.style.width = "500px");
 // let containerHeight = (container.style.height = "500px");
