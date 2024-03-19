@@ -30,7 +30,9 @@ body {
 }
 
 #gridChangeBtn {
-  margin-left: 600px;
+  margin-left: 615px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 #heading {
   text-align: center;
