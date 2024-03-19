@@ -9,13 +9,13 @@ mainContainer.setAttribute("id", "mainContainer");
 let containerWidth = (container.style.width = "500px");
 let containerHeight = (container.style.height = "500px");
 
-// document.body.appendChild(mainContainer);
+document.body.appendChild(mainContainer);
 
-// mainContainer.appendChild(container);
-// // let gridReset = document.querySelector("#gridReset");
-// // gridReset.addEventListener("click", changeGrid);
-// // function drawGrid() {
-// // }
+mainContainer.appendChild(container);
+// let gridReset = document.querySelector("#gridReset");
+// gridReset.addEventListener("click", changeGrid);
+// function drawGrid() {
+// }
 // for (let i = 0; i < 256; i++) {
 //   const grid = document.createElement("div");
 //   grid.classList.add("grid");
