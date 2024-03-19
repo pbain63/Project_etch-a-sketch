@@ -2,7 +2,7 @@ body {
   margin: 0;
   height: 100vh;
 }
- 
+
 * {
   box-sizing: border-box;
 }
@@ -28,7 +28,7 @@ body {
   background-color: blueviolet;
   border: 1px solid black;
 }
-/*
+
 #gridChangeBtn {
   margin-left: 600px;
 }
@@ -37,4 +37,4 @@ body {
   font-size: 38px;
   background-color: darkcyan;
   font-weight: bolder;
-} */
+}
