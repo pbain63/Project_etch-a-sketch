@@ -16,12 +16,12 @@ mainContainer.appendChild(container);
 // gridReset.addEventListener("click", changeGrid);
 // function drawGrid() {
 // }
-// for (let i = 0; i < 256; i++) {
-//   const grid = document.createElement("div");
-//   grid.classList.add("grid");
-//   grid.setAttribute("style", "width: 30px; height: 30px"); //fill whole container
-//   container.appendChild(grid);
-// }
+for (let i = 0; i < 256; i++) {
+  const grid = document.createElement("div");
+  grid.classList.add("grid");
+  grid.setAttribute("style", "width: 30px; height: 30px"); //fill whole container
+  container.appendChild(grid);
+}
 
 // gridChangeBtn.addEventListener("click", changeGrid);
 
