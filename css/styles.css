@@ -6,12 +6,13 @@ body {
 * {
   box-sizing: border-box;
 }
-/*
+
 #mainContainer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+/*
 #container {
   display: flex;
   align-content: flex-start;
