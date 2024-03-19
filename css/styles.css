@@ -12,12 +12,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-/*
+
 #container {
   display: flex;
   align-content: flex-start;
   flex-wrap: wrap;
 }
+/*
 .grid {
   background-color: blue;
   border: 2px solid mediumseagreen;
