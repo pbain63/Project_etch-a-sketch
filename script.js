@@ -56,7 +56,7 @@ function changeGrid(e) {
     const mouseMoves = document.querySelectorAll(".gridBox");
 
     mouseMoves.forEach((mouseMove) => {
-      mouseMove.addEventListener("dragover", sketch); //dragover//click//mousedown
+      mouseMove.addEventListener("dragover", sketch);//dragover//click//mousedown/mouseenter
     });
     function sketch(e) {
       e.target.style.backgroundColor = "orange";
